@@ -70,6 +70,6 @@ python ExcelCSVConverter.py -P "/data" -L ALL -F
 
 The script creates:
 
-- `<path>`/CSV/ <br>
-- `<path>`/XLSX/ <br>
-- `<path>`/logConverter\_<timestamp>.log
+- `<path>/CSV/` <br>
+- `<path>/XLSX/` <br>
+- `<path>/logConverter_<timestamp>.log`
