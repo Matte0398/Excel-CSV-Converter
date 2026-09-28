@@ -1,8 +1,8 @@
 # Excel <-> CSV Converter
 
-Python script that converts CSV files to Excel and Excel files to CSV.
+Python program that converts CSV files to Excel and Excel files to CSV.
 
-The script supports direct command-line arguments and configuration loading from a JSON file.
+The program supports direct command-line arguments and configuration loading from a JSON file.
 
 ## Features
 
@@ -76,13 +76,13 @@ The script creates:
 
 ## Example files
 
-The [examples](examples/) folder contains a sample CSV with five fictional products, the converted Excel workbook, and the conversion log:
+The [examples](examples/) folder contains a sample CSV with fictional products, the converted Excel workbook, and the conversion log:
 
-| File | Description |
-| --- | --- |
-| [products.csv](examples/products.csv) | Input data with the columns `Product`, `Category`, `Quantity`, and `Price`. |
-| [products.xlsx](examples/XLSX/products.xlsx) | Excel output, with the product data in `Sheet1`. |
-| [Conversion log](examples/logConverter_20260925_184757.log) | Log of the sample CSV-to-Excel conversion. |
+| File                                                        | Description                                                                 |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [products.csv](examples/products.csv)                       | Input data with the columns `Product`, `Category`, `Quantity`, and `Price`. |
+| [products.xlsx](examples/XLSX/products.xlsx)                | Excel output, with the product data in `Sheet1`.                            |
+| [Conversion log](examples/logConverter_20260925_184757.log) | Log of the sample CSV-to-Excel conversion.                                  |
 
 The input CSV uses commas as separators and a period for decimal values:
 
