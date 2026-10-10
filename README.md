@@ -82,7 +82,7 @@ The [examples](examples/) folder contains a sample CSV with fictional products, 
 | ----------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [products.csv](examples/products.csv)                       | Input data with the columns `Product`, `Category`, `Quantity`, and `Price`. |
 | [products.xlsx](examples/XLSX/products.xlsx)                | Excel output, with the product data in `Sheet1`.                            |
-| [Conversion log](examples/logConverter_20260925_184757.log) | Log of the sample CSV-to-Excel conversion.                                  |
+| [Conversion log](examples/logConverter_20260928_130523.log) | Log of the sample CSV-to-Excel conversion.                                  |
 
 The input CSV uses commas as separators and a period for decimal values:
 
