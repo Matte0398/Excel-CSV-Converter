@@ -4,6 +4,33 @@ Python program that converts CSV files to Excel and Excel files to CSV.
 
 The program supports direct command-line arguments and configuration loading from a JSON file.
 
+## Contents
+
+- [Repository structure](#repository-structure)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [JSON configuration example](#json-configuration-example)
+- [Usage](#usage)
+- [Output](#output)
+- [Example files](#example-files)
+- [License](#license)
+
+## Repository structure
+
+```text
+Excel-CSV-Converter/
+|-- examples/
+|   |-- CSV/
+|   |-- XLSX/
+|   |-- logConverter_20260928_130523.log
+|   |-- metrics.xlsx
+|   `-- products.csv
+|-- ExcelCSVConverter.py
+|-- LICENSE
+`-- README.md
+```
+
 ## Features
 
 - Convert CSV files to Excel `.xlsx`
