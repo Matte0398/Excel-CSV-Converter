@@ -6,8 +6,8 @@ The program supports direct command-line arguments and configuration loading fro
 
 ## Contents
 
-- [Repository structure](#repository-structure)
 - [Features](#features)
+- [Repository structure](#repository-structure)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [JSON configuration example](#json-configuration-example)
@@ -15,21 +15,6 @@ The program supports direct command-line arguments and configuration loading fro
 - [Output](#output)
 - [Example files](#example-files)
 - [License](#license)
-
-## Repository structure
-
-```text
-Excel-CSV-Converter/
-|-- examples/
-|   |-- CSV/
-|   |-- XLSX/
-|   |-- logConverter_20260928_130523.log
-|   |-- metrics.xlsx
-|   `-- products.csv
-|-- ExcelCSVConverter.py
-|-- LICENSE
-`-- README.md
-```
 
 ## Features
 
@@ -43,6 +28,24 @@ Excel-CSV-Converter/
 - JSON configuration file support
 - Automatic output folders
 - Operation log generation
+
+## Repository structure
+
+```text
+Excel-CSV-Converter/
+|-- examples/
+|   |-- CSV/
+|   |   |-- metrics_Sheet1.csv
+|   |   `-- metrics_Sheet2.csv
+|   |-- XLSX/
+|   |   `-- products.xlsx
+|   |-- logConverter_20260928_130523.log
+|   |-- metrics.xlsx
+|   `-- products.csv
+|-- ExcelCSVConverter.py
+|-- LICENSE
+`-- README.md
+```
 
 ## Requirements
 
